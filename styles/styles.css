@@ -1,0 +1,107 @@
+html {
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+body {
+	margin: 0;
+}
+.full {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height:100vh;
+	max-height: 50vw;
+	z-index: -10;
+}
+#logo {
+	z-index: 1000;
+	width: 400px;
+	max-width: 100%;
+	position: static;
+}
+form {
+	position: fixed;
+	right: 10%;
+	top: 40%;
+	width: 500px;
+	max-width: 80%;
+	color: white;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+input {
+ 	border: 0;
+ 	outline: 0;
+ 	background: transparent;
+ 	border-bottom: 1px solid white;
+	font-size: 11pt;
+	color: white;
+	width: 45%;
+	min-width: 245px;
+	font-family:inherit;
+	border-radius: 0;
+}
+#password {
+	display: inline;
+}
+#submt {
+	border: 0;
+	color: white;
+	right: 0;
+	top: 0;
+	position: absolute;
+	cursor: pointer;
+	text-align: right;
+	padding-right: 0;
+    padding-right: 7px;
+    width: 30px;
+    min-width: 57px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+@-webkit-keyframes autofill {
+    to {
+        color: white;
+        background: transparent;
+    }
+}
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+#rgstr {
+	border: 0;
+	color: white;
+	cursor: pointer;
+	padding-right: 0;
+	text-align: right;
+}
+@media (max-aspect-ratio: 9/4) and (max-width: 900px) {
+	.full {
+		height:30vh;
+	}
+}

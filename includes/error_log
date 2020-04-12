@@ -1,0 +1,9 @@
+[18-Dec-2018 09:39:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[20-Dec-2018 19:55:32 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[09-Jan-2019 15:53:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[10-Jan-2019 11:14:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[10-Jan-2019 11:14:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[24-Jan-2019 09:42:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[11-Feb-2019 13:46:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[27-Feb-2019 09:07:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
+[07-Jun-2019 15:30:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/henryneilson/public_html/hcawn.com/includes/functions.php on line 42
